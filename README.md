@@ -3,5 +3,5 @@
 
 Features:
 -Glock .50 GI Conversion kit
--*URBAN RENEWAL REQUIRED* A Halo 2 magnum conversion for the Desert Eagle as a fun little joke attachment
--*URBAN DECAY REQUIRED* .300 Blackout receiever for the Mini-14
+-URBAN RENEWAL REQUIRED A Halo 2 magnum conversion for the Desert Eagle as a fun little joke attachment
+-URBAN DECAY REQUIRED .300 Blackout receiever for the Mini-14
