@@ -1,7 +1,7 @@
 att.PrintName = "GUN GENIE Firearm Enhancer"
 
 att.Icon = Material("entities/att/arccw_uc_forcedresettrigger.png", "mips smooth")
-att.Description = "The notrious AliBubba strikes again."
+att.Description = "The notorious AliBubba strikes again."
 att.Desc_Pros = {
     "uc.auto"
 }
