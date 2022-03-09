@@ -14,3 +14,7 @@ Mini-14: .300 Blackout receiever
 Uzi: .41 Magnum Conversion kit
 
 M79: Nuke round
+
+Explosive Rounds
+
+Bubba Fire Control Group
