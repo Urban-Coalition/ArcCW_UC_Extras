@@ -5,6 +5,7 @@ if !GetConVar("arccw_truenames"):GetBool() then
     att.PrintName = "Patriot 815 .300 BLK Receiver"
 end
 
+att.SortOrder = 40
 att.Icon = Material("entities/att/acwatt_ud_mini14_receiver.png", "smooth mips")
 att.Description = "An offical receiver variant made to chamber the .300 Blackout cartridge. While identical to 5.56x45mm in diameter, this cartridge carries a much larger projectile, which improves stopping power at the cost of ballistic performance."
 att.Desc_Pros = {
@@ -44,5 +45,5 @@ att.Hook_GetDistantShootSound = function(wep, distancesound)
     if distancesound == wep.DistantShootSound then return path .. "fire_dist.ogg" end
 end
 
-att.GivesFlags = {"cal_subsonic"}
+att.GivesFlags = {"cal_subsonic", "ud_mini14_receiver_300blk"}
 att.ExcludeFlags = {"powder_subsonic"}
