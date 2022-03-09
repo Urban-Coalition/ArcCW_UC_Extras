@@ -36,14 +36,6 @@ att.Override_ShellScale = 1
 
 att.Override_Trivia_Calibre = ".300 Blackout"
 
-att.Hook_GetShootSound = function(wep, fsound)
-    if fsound == wep.FirstShootSound then return path .. "fire_first.ogg" end
-    if fsound == wep.ShootSound then return {path .. "fire_auto_1.ogg", path .. "fire_auto_2.ogg", path .. "fire_auto_3.ogg"} end
-end
-
-att.Hook_GetDistantShootSound = function(wep, distancesound)
-    if distancesound == wep.DistantShootSound then return path .. "fire_dist.ogg" end
-end
 
 att.GivesFlags = {"cal_subsonic", "ud_mini14_receiver_300blk"}
 att.ExcludeFlags = {"powder_subsonic"}

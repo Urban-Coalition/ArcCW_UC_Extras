@@ -32,7 +32,7 @@ att.Override_ClipSize_Priority = 0.5
 att.BaseClipSize = 10
 att.Mult_HipDispersion = 1.1
 
-att.Override_ShellScale = 1.7
+att.Override_ShellScale = 1.45
 
 att.Override_Firemodes_Priority = 0.5
 att.Override_Firemodes = {
