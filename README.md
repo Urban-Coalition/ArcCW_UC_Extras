@@ -19,4 +19,4 @@ M79: Nuke round
 
 Explosive Rounds
 
-Bubba Fire Control Group
+GUN GENIE Firearm Enhancer
