@@ -1,15 +1,15 @@
-att.PrintName = "40mm Mighty Kid"
-att.AbbrevName = "Mighty Kid"
+att.PrintName = "40mm Tiny Tot"
+att.AbbrevName = "Tiny Tot"
 att.Icon = Material("entities/att/arccw_uc_40mm_generic.png", "mips smooth")
 att.Description = [[Unusual homemade grenade with a small nuclear warhead that inflicts massive damage over a massive area. The heavyweight payload significantly hinders the projectile's aerodynamics and handling.
 Handle with extreme care.]]
 att.Desc_Pros = {
-    "Greatly increased blast radius"
+    "uce.fattnutt"
 }
 att.Desc_Cons = {
     "uc.40mm.drag.high"
 }
-att.Desc_Neutrals = {
+att.Desc_Neutrals = { "uce.wip", "uce.uno"
 }
 att.Slot = "uc_40mm"
 
@@ -25,5 +25,6 @@ att.Mult_MuzzleVelocity = .50
 att.Mult_ShootPitch = .69
 att.Mult_ReloadTime = 1.55
 att.Mult_SightTime = 1.25
+att.Override_DamageType = DMG_AIRBOAT
 
 att.NotForNPCs = true -- They can't be trusted with this power

@@ -8,7 +8,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
     "uc.frcd_visrec"
 }
-att.Desc_Neutrals = {
+att.Desc_Neutrals = { "uce.wip", "uce.uno"
 }
 att.Slot = "uc_fg"
 att.AutoStats = true
@@ -42,7 +42,7 @@ att.Override_Firemodes = {
 }
 
 att.Mult_RPM = 1.666
-att.Mult_RecoilSide = 3.60
+att.Mult_RecoilSide = 4.20
 att.Mult_VisualRecoilMult = 2
 att.Mult_MalfunctionMean = .666
 
