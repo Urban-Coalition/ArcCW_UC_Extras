@@ -47,8 +47,4 @@ att.Hook_BulletHit = function(wep, data)
     end
 end
 
-att.Hook_Compatible = function(wep)
-    if wep.Num ~= 1 or (wep.Primary.Ammo ~= "pistol" and wep.Primary.Ammo ~= "357" and wep.Primary.Ammo ~= "ar2" and wep.Primary.Ammo ~= "smg1") then return false end
-end
-
 att.AddPrefix = "HE "
