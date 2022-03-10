@@ -6,7 +6,7 @@ if !GetConVar("arccw_truenames"):GetBool() then
 end
 
 att.SortOrder = 120
-att.Icon = Material("entities/att/acwatt_ud_glock_caliber.png", "smooth mips")
+att.Icon = Material("entities/att/acwatt_ur_deagle_bullets_50ae.png", "smooth mips")
 att.Description = "Custom slide and ammunition provided by esteemed manufacturer, Guncrafter Industries.\nBetter minimum range, accuracy and overall damage compared to .45 ACP, but suffers from abysmal magazine capacity and most unreliable of all calibers."
 att.Desc_Pros = { "uce.gi.pro"
 }
