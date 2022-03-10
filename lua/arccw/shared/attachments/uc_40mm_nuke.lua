@@ -25,3 +25,5 @@ att.Mult_MuzzleVelocity = .50
 att.Mult_ShootPitch = .69
 att.Mult_ReloadTime = 1.55
 att.Mult_SightTime = 1.25
+
+att.NotForNPCs = true -- They can't be trusted with this power

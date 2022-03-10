@@ -8,3 +8,11 @@ ENT.GrenadeRadius = 1200
 ENT.DragCoefficient = 0.75
 
 ENT.Model = "models/weapons/shell.mdl"
+
+function ENT:DoDetonation()
+    local attacker = IsValid(self:GetOwner()) and self:GetOwner() or self
+    util.BlastDamage(self, attacker, self:GetPos(), self.GrenadeRadius, self.GrenadeDamage or self.Damage or 0)
+
+    ParticleEffect("nqb_explo",self:GetPos(),Angle(0,0,0))
+    self:EmitSound("ambient/explosions/explode_5.wav",180,100,1,CHAN_AUTO) -- doesn't work :(
+end
