@@ -21,10 +21,11 @@ att.Hook_GetShootSound = function(wep, sound)
     end
 end
 
---[[att.Hook_GetDistantShootSound = function(wep, distancesound)
+att.Hook_GetDistantShootSound = function(wep, distancesound)
     if distancesound == wep.DistantShootSound then
-        return "weapons/arccw_ur/deagle/fire_halo_dist.ogg" end
-end]]
+        return "weapons/arccw_ur/deagle/fire_halo_dist.ogg" 
+    end
+end
 
 att.AutoStats = true
 att.Slot = "ur_deagle_caliber"
