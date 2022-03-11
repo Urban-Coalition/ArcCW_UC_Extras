@@ -12,18 +12,14 @@ end
 att.AutoStats = true
 att.Slot = "ur_deagle_caliber"
 
-att.Mult_AccuracyMOA = 0.6
-att.Mult_Range = 1.4
-att.Mult_Penetration = 2
-att.Mult_Precision = 1.4
-att.Mult_Damage = 0.87
-att.Mult_Recoil = 1.15
-att.Mult_MuzzleVelocity = 1.8
-att.Mult_DamageMin = 0.875
+att.Mult_AccuracyMOA = 0.75
+att.Mult_Range = 1.25
+att.Mult_Penetration = 1.25
+att.Mult_Precision = 1.25
+att.Mult_Damage = 0.85
+att.Mult_Recoil = 1.10
+att.Mult_MuzzleVelocity = 1.5
 att.Mult_MalfunctionMean = 1.05
-
-att.Mult_ShootSpeedMult = 1.1
---att.Mult_RPM = 1.1
 
 att.Override_Trivia_Calibre = ".429 DE"
 att.Override_ShellModel = "models/weapons/arccw/uc_shells/50ae.mdl"
