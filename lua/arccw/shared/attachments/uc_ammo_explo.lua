@@ -2,11 +2,11 @@ att.PrintName = "Explosive Rounds"
 att.AbbrevName = "Explosive Rounds"
 att.Icon = Material("entities/att/arccw_uc_ammo_generic.png", "mips smooth")
 att.Description = "A bullet shaped from a high-explosive compound."
-att.Desc_Pros = { "uce.megamin"
+att.Desc_Pros = {
 }
 att.Desc_Cons = {
 }
-att.Desc_Neutrals = { "uce.wip", "uce.uno"
+att.Desc_Neutrals = {
 }
 att.AutoStats = true
 att.Slot = {"uc_ammo"}
