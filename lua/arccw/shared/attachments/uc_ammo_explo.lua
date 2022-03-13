@@ -26,7 +26,7 @@ att.Hook_PhysBulletHit = function(wep, data)
     delta = math.Clamp(delta, 0, 1)
     local dmg = Lerp(delta, data.bullet.DamageMax, data.bullet.DamageMin)
     
-    local attacker = IsValid(self:GetOwner()) and self:GetOwner() or self
+    local attacker = IsValid(wep:GetOwner()) and wep:GetOwner() or nil
     util.BlastDamage(wep, attacker, data.tr.HitPos, 128, dmg)
 
     local eff = EffectData()
