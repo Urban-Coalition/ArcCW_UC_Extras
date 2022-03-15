@@ -17,8 +17,8 @@ att.Override_ShootEntity = "arccw_uc_40mm_nuke"
 
 att.AutoStats = true
 
-att.Mult_Damage = 26
-att.Mult_DamageMin = 26
+att.Mult_Damage = 33
+att.Mult_DamageMin = 33
 
 att.Mult_MuzzleVelocity = .6
 
