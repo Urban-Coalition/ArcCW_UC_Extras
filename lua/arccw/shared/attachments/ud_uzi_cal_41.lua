@@ -24,10 +24,10 @@ att.AutoStats = true
 
 att.Mult_Damage = 1.66
 att.Mult_Penetration = 4
-att.Mult_RangeMin = 1.5
-att.Mult_Range = 0.45
-att.Mult_ShootVol = 0.9
-att.Mult_Recoil = 2
+att.Mult_RangeMin = 2.5
+att.Mult_Range = 0.5
+att.Mult_ShootVol = 1.15
+att.Mult_Recoil = 3
 att.Mult_RecoilSide = 2
 att.Mult_RPM = 0.50
 att.Override_ClipSize = 10
@@ -35,7 +35,7 @@ att.Override_ClipSize_Priority = 0.5
 att.BaseClipSize = 10
 att.Mult_HipDispersion = 1.1
 
-att.Override_ShellScale = 1.45
+att.Override_ShellScale = 1.35
 
 att.Override_Firemodes_Priority = 0.5
 att.Override_Firemodes = {
