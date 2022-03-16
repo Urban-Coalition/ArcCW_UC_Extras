@@ -20,23 +20,34 @@ att.Override_Num = 1
 att.Override_PhysTracerProfile = 1
 att.Override_AlwaysPhysBullet = true
 
+local ammoToRadius = {
+    ["plinking"] = 48,
+    ["pistol"] = 60,
+    ["smg1"] = 84,
+    ["ar2"] = 96,
+    ["357"] = 104,
+    ["SniperPenetratedRound"] = 128,
+}
+
 att.Hook_PhysBulletHit = function(wep, data)
     if SERVER then
-    local delta = data.bullet.Travelled / (data.bullet.Range / ArcCW.HUToM)
-    delta = math.Clamp(delta, 0, 1)
-    local dmg = Lerp(delta, data.bullet.DamageMax, data.bullet.DamageMin)
-    
-    local attacker = IsValid(wep:GetOwner()) and wep:GetOwner() or nil
-    util.BlastDamage(wep, attacker, data.tr.HitPos, 128, dmg)
+        local radius = ammoToRadius[wep.Primary.Ammo] or 32
+        
+        local delta = data.bullet.Travelled / (data.bullet.Range / ArcCW.HUToM)
+        delta = math.Clamp(delta, 0, 1)
+        local dmg = Lerp(delta, data.bullet.DamageMax, data.bullet.DamageMin)
+        
+        local attacker = IsValid(wep:GetOwner()) and wep:GetOwner() or nil
+        util.BlastDamage(wep, attacker, data.tr.HitPos, radius, dmg)
 
-    local eff = EffectData()
-    eff:SetOrigin(data.tr.HitPos)
-    eff:SetMagnitude(4)
-    eff:SetScale(0.5)
-    eff:SetRadius(4)
-    util.Effect("Sparks", eff)
-    util.Effect("Explosion", eff)
-    util.Decal("Scorch", data.tr.HitPos - data.tr.HitNormal, data.tr.HitPos + data.tr.HitNormal, ents.GetAll())
+        local eff = EffectData()
+        eff:SetOrigin(data.tr.HitPos)
+        eff:SetMagnitude(4 * radius / 128)
+        eff:SetScale(0.5 * radius / 128)
+        eff:SetRadius(4 * radius / 128)
+        util.Effect("Sparks", eff)
+        util.Effect("Explosion", eff)
+        util.Decal("Scorch", data.tr.HitPos - data.tr.HitNormal, data.tr.HitPos + data.tr.HitNormal, ents.GetAll())
     end
 end
 
