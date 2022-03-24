@@ -34,22 +34,24 @@ att.Mult_ClipSize = 1.72
 att.Mult_Recoil = 0
 att.Mult_ShootSpeedMult = 2
 att.Mult_RPM = 5
-att.Mult_ShootVol = 0.85
+att.Mult_ShootVol = 0.8
 att.Mult_Sway = 0
-att.Add_BarrelLength = -5
+att.Add_BarrelLength = -10
 att.Mult_SpeedMult = 1.5
 att.Mult_SightedSpeedMult = 1.5
-att.Mult_Range = 5
 att.Mult_MalfunctionMean = 500
 
 att.Mult_AccuracyMOA = 2.5
-att.Mult_Damage = 0.25
+att.Mult_Damage = 0.24
+att.Mult_Penetration = 0.25
 
-att.Mult_PhysBulletMuzzleVelocity = 5
+att.Mult_PhysBulletMuzzleVelocity = 1.66
 att.Override_Trivia_Calibre = att.AbbrevName -- E F F I C I E N C Y
 att.Override_ShellModel = "models/weapons/arccw/uc_shells/9x19.mdl"
-att.Override_ShellScale = 0.95
+att.Override_ShellScale = 1
 
 att.Override_Trivia_Manufacturer = "BUNGIE™"
 att.Override_Trivia_Year = 2004
 att.Override_Trivia_Country = "USA"
+
+att.NotForNPCs = true
