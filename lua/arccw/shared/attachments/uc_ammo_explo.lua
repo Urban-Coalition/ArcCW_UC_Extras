@@ -57,5 +57,5 @@ att.Hook_BulletHit = function(wep, data)
         data.dmgtype = DMG_AIRBOAT
     end
 end
-
+att.NotForNPCs = true
 att.AddPrefix = "HE "
