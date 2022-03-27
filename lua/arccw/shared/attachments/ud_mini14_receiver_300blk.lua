@@ -12,7 +12,7 @@ att.Desc_Pros = { "No distant firing sound when suppressed"
 }
 att.Desc_Cons = {
 }
-att.Desc_Neutrals = { "uce.wip", "uce.uno"
+att.Desc_Neutrals = {
 }
 att.Slot = "ud_mini14_receiver"
 
