@@ -5,7 +5,6 @@ att.Description = "Hailing from 2552."
 att.Desc_Pros = {
     "uc.auto"
 }
-att.Desc_Neutrals = { "uce.wip", "uce.uno" }
 
 if !GetConVar("arccw_truenames"):GetBool() then
     att.PrintName = "Predator .50 Master Class Conversion"
