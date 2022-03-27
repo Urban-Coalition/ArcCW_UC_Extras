@@ -12,7 +12,7 @@ att.Desc_Pros = { "uce.gi.pro"
 }
 att.Desc_Cons = { "uc.jam", "uce.gi.con"
 }
-att.Desc_Neutrals = { "uce.wip", "uce.uno"
+att.Desc_Neutrals = {
 }
 att.Slot = "ud_glock_caliber"
 
