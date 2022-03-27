@@ -15,7 +15,6 @@ att.Desc_Cons = {
     "uc.semionly"
 }
 att.Desc_Neutrals = {
-    "uce.wip", "uce.uno"
 }
 
 att.Override_Trivia_Calibre = ".41 Action Express"
