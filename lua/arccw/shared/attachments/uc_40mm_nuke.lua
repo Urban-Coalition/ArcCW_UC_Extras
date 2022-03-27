@@ -9,7 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
     "uc.40mm.drag.high"
 }
-att.Desc_Neutrals = { "uce.wip", "uce.uno"
+att.Desc_Neutrals = {
 }
 att.Slot = "uc_40mm"
 
