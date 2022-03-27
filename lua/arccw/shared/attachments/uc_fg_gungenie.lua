@@ -8,7 +8,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
     "uc.frcd_visrec"
 }
-att.Desc_Neutrals = { "uce.wip", "uce.uno"
+att.Desc_Neutrals = {
 }
 att.Slot = "uc_fg"
 att.AutoStats = true
