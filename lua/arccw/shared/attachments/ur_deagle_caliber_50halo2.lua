@@ -6,7 +6,7 @@ att.Desc_Pros = {
 }
 att.Desc_Cons = { "uce.deagle.cocknballs"
 }
-att.Desc_Neutrals = { "uce.wip", "uce.uno"
+att.Desc_Neutrals = {
 }
 
 if !GetConVar("arccw_truenames"):GetBool() then
