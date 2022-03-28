@@ -5,17 +5,19 @@ Required content: Urban Decay, Urban Renewal, Urban Attachments and Common Conte
 
 Features:
 
-Glock: .50 GI Conversion kit
+Glock: .50 GI conversion kit
+
+1911: .460 Rowland conversion 
 
 Desert Eagle: Halo 2 Magnum conversion
 
 Desert Eagle: Halo: Combat Evolved Desert Eagle conversion
 
-Desert Eagle: .429 DE Conversion Kit
+Desert Eagle: .429 DE conversion kit
 
 Mini-14: .300 Blackout receiever
 
-Uzi: .41 Magnum Conversion kit
+Uzi: .41 Magnum conversion kit
 
 M79: Nuke round
 
