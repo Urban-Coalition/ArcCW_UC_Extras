@@ -9,6 +9,8 @@ Glock: .50 GI Conversion kit
 
 Desert Eagle: Halo 2 Magnum conversion
 
+Desert Eagle: Halo: Combat Evolved Desert Eagle conversion
+
 Desert Eagle: .429 DE Conversion Kit
 
 Mini-14: .300 Blackout receiever
