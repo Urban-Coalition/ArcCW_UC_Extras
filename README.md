@@ -23,4 +23,6 @@ M79: Nuke round
 
 Explosive Rounds
 
+Snake-Shot Rounds
+
 GUN GENIE Firearm Enhancer
