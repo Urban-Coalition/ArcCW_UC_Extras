@@ -14,7 +14,7 @@ att.Slot = "uc_ammo"
 att.AutoStats = true
 
 att.Override_Num = 5
-att.Mult_Range = 0.5
+att.Mult_Range = 0.25
 att.Override_AccuracyMOA = 35
 att.Override_AccuracyMOA_Priority = 0
 att.Mult_Recoil = 0.75
