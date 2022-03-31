@@ -23,6 +23,9 @@ att.Override_PhysBulletMuzzleVelocity = 300
 att.Mult_Damage = 0.2
 att.Mult_DamageMin = 0.05
 
+att.GivesFlags = {"cal_subsonic"}
+att.ExcludeFlags = {"powder_subsonic"}
+
 att.Override_Ammo = "buckshot"
 
 att.Hook_Compatible = function(wep)
