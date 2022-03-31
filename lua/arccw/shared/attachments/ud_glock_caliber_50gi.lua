@@ -27,6 +27,7 @@ att.Mult_Damage = 1.50
 att.Mult_DamageMin = 1.50
 att.Mult_Penetration = 1.15
 att.Mult_AccuracyMOA = 0.85
+att.Override_PhysBulletMuzzleVelocity = 370
 
 att.Mult_RangeMin = 0.66
 att.Mult_Recoil = 1.50
