@@ -33,6 +33,7 @@ att.Override_ClipSize = 10
 att.Override_ClipSize_Priority = 0.5
 att.BaseClipSize = 10
 att.Mult_HipDispersion = 1.1
+att.Override_PhysBulletMuzzleVelocity = 270
 
 att.Override_ShellScale = 1.35
 
