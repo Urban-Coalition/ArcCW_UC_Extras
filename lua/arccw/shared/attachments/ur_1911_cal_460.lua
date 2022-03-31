@@ -25,7 +25,7 @@ att.Mult_Penetration = 1.05
 att.Mult_Recoil = 1.05
 att.Mult_RecoilSide = 1.05
 att.Mult_AccuracyMOA = 0.85
-att.Override_PhysBulletMuzzleVelocity = 385
+att.Override_PhysBulletMuzzleVelocity = 410
 
 att.Hook_GetShootSound = function(wep, sound)
     if wep:GetBuff_Override("Silencer") then
