@@ -18,6 +18,7 @@ att.Mult_Range = 0.25
 att.Override_AccuracyMOA = 35
 att.Override_AccuracyMOA_Priority = 0
 att.Mult_Recoil = 0.75
+att.Override_PhysBulletMuzzleVelocity = 300
 
 att.Mult_Damage = 0.2
 att.Mult_DamageMin = 0.05
