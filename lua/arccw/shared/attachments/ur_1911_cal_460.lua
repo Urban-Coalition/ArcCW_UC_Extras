@@ -20,10 +20,12 @@ att.AutoStats = true
 
 att.Override_Trivia_Calibre = ".460 Rowland"
 
-att.Mult_Damage = 0.9
-att.Mult_Penetration = 1.25
-att.Mult_Recoil = 1.1
-att.Mult_AccuracyMOA = 0.75
+att.Mult_Damage = 1.05
+att.Mult_Penetration = 1.05
+att.Mult_Recoil = 1.05
+att.Mult_RecoilSide = 1.05
+att.Mult_AccuracyMOA = 0.85
+att.Override_PhysBulletMuzzleVelocity = 385
 
 att.Hook_GetShootSound = function(wep, sound)
     if wep:GetBuff_Override("Silencer") then
