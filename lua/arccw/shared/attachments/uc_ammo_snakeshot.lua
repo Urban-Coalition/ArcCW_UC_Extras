@@ -13,11 +13,11 @@ att.Slot = "uc_ammo"
 
 att.AutoStats = true
 
-att.Override_Num = 5
+att.Override_Num = 7
 att.Mult_Range = 0.25
-att.Override_AccuracyMOA = 35
+att.Override_AccuracyMOA = 25
 att.Override_AccuracyMOA_Priority = 0
-att.Mult_Recoil = 0.75
+att.Mult_Recoil = 0.85
 att.Override_PhysBulletMuzzleVelocity = 300
 
 att.Mult_Damage = 0.2
@@ -25,8 +25,6 @@ att.Mult_DamageMin = 0.05
 
 att.GivesFlags = {"cal_subsonic"}
 att.ExcludeFlags = {"powder_subsonic"}
-
-att.Override_Ammo = "buckshot"
 
 att.Hook_Compatible = function(wep)
     if wep:GetIsShotgun() then
