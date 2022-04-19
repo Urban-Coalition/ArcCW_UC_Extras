@@ -18,7 +18,7 @@ att.Mult_Precision = 1.25
 att.Mult_Damage = 0.85
 att.Mult_Recoil = 1.10
 att.Mult_MalfunctionMean = 1.05
-att.Override_PhysBulletMuzzleVelocity = 495
+att.Override_PhysBulletMuzzleVelocity = 3500
 
 att.Override_Trivia_Calibre = ".429 DE"
 att.Override_ShellModel = "models/weapons/arccw/uc_shells/50ae.mdl"
