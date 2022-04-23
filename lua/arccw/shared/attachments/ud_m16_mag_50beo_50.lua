@@ -2,7 +2,7 @@ att.PrintName = ".50 Beowulf 40-Round C-Mag"
 att.AbbrevName = "40-Round C-Mag"
 att.SortOrder = 100
 att.Icon = Material("entities/att/acwatt_ud_m16_mag_100.png", "smooth mips")
-att.Description = "REDIPS PUT SOMETHING FUNNY HERE BEFORE THE WS PUSH"
+att.Description = "\"REDIPS PUT SOMETHING FUNNY HERE BEFORE THE WS PUSH!\" Taskmaster said. \"No\" Redips replied calmly."
 att.Desc_Pros = {}
 att.Desc_Cons = {
     "uc.jam"
