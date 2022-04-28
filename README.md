@@ -1,9 +1,9 @@
-# [ArcCW] [UC] Extras
-[ArcCW] [UC] Extras is an addon for [ArcCW] [UC] mods which aims to add more features that were scrapped, or cut from the base addons.
+# [ArcCW] Ivory's Terrible [UC] Extras Fork
+[ArcCW] [UC] Extras is an addon for [ArcCW] [UC] mods which aims to add more features that were scrapped, or cut from the base addons. This fork adds some janky stuff that may or may not be realistic and probably was never supposed to exist in the original addons but hey, they work sort of.
 
-Required content: Urban Decay, Urban Renewal, Urban Attachments and Common Content
+Required content: Urban Decay, Urban Renewal, Urban Attachments and Common Content, low expectations.
 
-Features:
+Original Features:
 
 Glock: .50 GI conversion kit
 
@@ -26,3 +26,13 @@ Explosive Rounds
 Snake-Shot Rounds
 
 GUN GENIE Firearm Enhancer
+
+Janky Additions:
+
+MP5/45 .45 ACP Conversion
+
+M4A1 Navy Receiver (Semi, auto and burst)
+
+AR-15 6.8 SPC Receiver
+
+Origin-12/RAS-12 12 gauge receiver (For the M16A2. Barely works.)
