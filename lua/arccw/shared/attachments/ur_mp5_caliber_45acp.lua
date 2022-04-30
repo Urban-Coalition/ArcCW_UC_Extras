@@ -7,7 +7,7 @@ end
 
 att.SortOrder = 80
 att.Icon = Material("entities/att/acwatt_ur_mp5_caliber.png", "smooth mips")
-att.Description = "Aftermarket conversion to a larger caliber. Close range stopping power is great, but the large round loses velocity quickly."
+att.Description = "Aftermarket conversion to a larger caliber. Close range stopping power is great, but the large round loses velocity quickly and has significantly higher recoil."
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
@@ -30,7 +30,7 @@ att.Mult_RecoilSide = 1.5
 att.Mult_MalfunctionMean = 0.6
 att.Override_PhysBulletMuzzleVelocity = 320
 
-att.Mult_ClipSize = 0.76
+att.Override_ClipSize = 25
 
 att.Mult_RPM = 0.7619
 

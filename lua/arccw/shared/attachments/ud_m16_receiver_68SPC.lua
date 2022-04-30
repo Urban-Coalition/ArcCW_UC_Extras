@@ -5,7 +5,7 @@ if GetConVar("arccw_truenames"):GetBool() then
     att.PrintName = "AR-15 6.8 SPC Receiver"
 end
 
-att.Description = "Automatic receiver modified to take the 6.8 Remington Special Purpose cartridge. It has increased overall stopping power, better performance at range and only a negligible recoil increase."
+att.Description = "Automatic receiver modified to take the 6.8 Remington Special Purpose cartridge. It has increased overall stopping power, better performance at range and only a negligible recoil increase, but the more powerful round requires a modified gas piston to maintain reliability."
 
 att.Icon = Material("entities/att/acwatt_ud_m16_receiver_auto.png", "smooth mips")
 att.Desc_Pros = {

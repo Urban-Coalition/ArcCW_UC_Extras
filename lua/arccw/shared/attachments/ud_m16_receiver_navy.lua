@@ -5,11 +5,11 @@ if GetConVar("arccw_truenames"):GetBool() then
     att.PrintName = "M4A1 SAB Receiver"
 end
 
-att.Description = "A receiver that allows burst fire and automatic fire. Comes in semi-auto-burst-safe configuration."
+att.Description = "A receiver that allows burst fire and automatic fire. Extremely versatile, but the complicated internals adds weapon weight."
 
 att.Icon = Material("entities/att/acwatt_ud_m16_receiver_auto.png", "smooth mips")
 att.Desc_Pros = {
-    "uc.auto",
+    "Semi-automatic, fully automatic and 3-round burst.",
     --"ud.flattop"
 }
 att.Desc_Cons = {
@@ -26,6 +26,9 @@ att.Mult_AccuracyMOA = 1.25
 att.Mult_RPM = 0.85
 att.Mult_HipDispersion = 1.125
 att.Mult_ShootSpeedMult = 0.85
+att.Mult_Sway = 1.10
+att.Mult_SightedSpeedMult = 0.9
+
 
 att.Override_Firemodes = {
    {
