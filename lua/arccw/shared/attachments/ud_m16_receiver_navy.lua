@@ -5,7 +5,7 @@ if GetConVar("arccw_truenames"):GetBool() then
     att.PrintName = "M4A1 SAB Receiver"
 end
 
-att.Description = "A receiver that allows burst fire and automatic fire. Extremely versatile, but the complicated internals adds weapon weight."
+att.Description = "A receiver that allows burst fire and automatic fire. Extremely versatile, but the complicated internals add weapon weight."
 
 att.Icon = Material("entities/att/acwatt_ud_m16_receiver_auto.png", "smooth mips")
 att.Desc_Pros = {
