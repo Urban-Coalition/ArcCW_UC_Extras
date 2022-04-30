@@ -18,7 +18,8 @@ att.Slot = "ur_mp5_caliber"
 
 att.AutoStats = true
 
-att.Override_Trivia_Calibre = ".22 LR"
+att.Override_Trivia_Calibre = ".22 Long Rifle"
+att.Override_Ammo = "plinking"
 
 att.Mult_Damage = 0.4
 att.Mult_DamageMin = 0.4
@@ -53,5 +54,3 @@ att.Hook_GetDistantShootSoundOutdoors = function(wep, distancesound)
         return { "weapons/arccw_ud/glock/fire_dist_22.ogg" }
     end
 end
-
-att.GivesFlags = {"ur_mp5_cal_10mm"}
