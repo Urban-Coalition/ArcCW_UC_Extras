@@ -10,9 +10,8 @@ att.Desc_Neutrals = {
 att.SortOrder = 4
 
 att.Slot = "uc_40mm"
-att.Override_ShootEntity = "arccw_gl_m79_timed"
 
-att.Mult_MuzzleVelocity = 0.8
+att.Mult_MuzzleVelocity = 0.4
 
 att.Override_Firemodes_Priority = 1000
 att.Override_Firemodes = {
