@@ -8,7 +8,8 @@ end
 att.SortOrder = 40
 att.Icon = Material("entities/att/acwatt_ud_mini14_receiver.png", "smooth mips")
 att.Description = "An offical receiver variant made to chamber the .300 Blackout cartridge. While identical to 5.56x45mm in diameter, this cartridge carries a much larger projectile, which improves stopping power at the cost of ballistic performance."
-att.Desc_Pros = { "No distant firing sound when suppressed"
+att.Desc_Pros = {
+    "uc.subsonic"
 }
 att.Desc_Cons = {
 }
