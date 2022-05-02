@@ -2,13 +2,15 @@ att.PrintName = "AMCAR-SG 12 Gauge Receiver"
 att.AbbrevName = "12 Gauge Receiver"
 
 if GetConVar("arccw_truenames"):GetBool() then
-    att.PrintName = "Origin 12 Receiver"
+    att.PrintName = "RAS-12 Receiver"
 end
 
 att.SortOrder = -1
 att.Icon = Material("entities/att/acwatt_ud_m16_receiver_semi.png", "smooth mips")
 att.Description = "Semi-automatic receiver chambered in 12 gauge shotgun shells. It can load single-stack into standard AR-15 magazines at a lower capacity."
-att.Desc_Pros = {}
+att.Desc_Pros = {
+    "Fires 8 pellets instead of one round"
+}
 att.Desc_Cons = {
     "uc.semionly"
 }
@@ -20,21 +22,26 @@ att.HideIfBlocked = true
 
 att.SortOrder = 1
 
+att.Override_Malfunction = true
+att.Mult_MalfunctionMean = 0.8
+att.Mult_MalfunctionVariance = 1.5
+
 att.Override_ClipSize = 7
 att.Override_ClipSize_Priority = 0.5
 att.BaseClipSize = 7
 
 att.Override_Damage = 180
-att.Mult_Recoil = 1.5
+att.Mult_Recoil = 3
 att.Mult_RecoilSide = 2
 att.Mult_VisualRecoilMult = 2
 att.Mult_RPM = 0.5
-att.Mult_Range = 0.25
+att.Mult_Range = 0.2
 att.Mult_ShootVol = 1.2
-att.Mult_Penetration = 12 / 14
+att.Override_Penetration = 20
 att.Override_AccuracyMOA = 35
 att.Override_AccuracyMOA_Priority = 0
 
+att.Override_Num_Priority = -1
 att.Override_Num = 8
 att.Mult_SightTime = 0.91
 att.Mult_ReloadTime = 1
@@ -87,6 +94,7 @@ end
 
 local slotinfo = {
     [9] = {"7-Round Mag", "7-Round Mag", Material("entities/att/acwatt_ud_m16_mag_15.png", "smooth mips")},
+    [10] = {"\"BUCK\" #00 Buckshot", "\"BUCK\" #00 Buckshot", Material("entities/att/arccw_uc_ammo_shotgun_generic.png", "mips smooth")},
 }
 att.Hook_GetDefaultAttName = function(wep, slot)
     if slotinfo[slot] then
@@ -100,5 +108,5 @@ att.Hook_GetDefaultAttIcon = function(wep, slot)
 end
 
 att.GivesFlags = {"m16_50beo"}
-att.ExcludeFlags = {"uc_ammo"}
---Very janky code, disables ammo slot because I have no idea how to make it use shotgun ammo instead of normal ammo. Maybe you know how to fix that?
+att.ActivateElements = {"ud_m16_mag_50beo"}
+--Very janky code is now fixed, yay!

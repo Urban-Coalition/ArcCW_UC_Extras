@@ -35,7 +35,7 @@ M4A1 Navy Receiver (Semi, auto and burst)
 
 AR-15 6.8 SPC Receiver
 
-Origin-12/RAS-12 12 gauge receiver (For the M16A2. Broken without latest git version of ArcCW base.)
+RAS-12 12 gauge receiver (For the M16A2. Broken without latest git version of ArcCW base.)
 
 MP5/22 .22 Long Rifle Converson
 
