@@ -12,7 +12,7 @@ att.Desc_Cons = {
 }
 att.Desc_Neutrals = {
 }
-att.Slot = "uc_ammo"
+att.Slot = {"ud_ammo_shotgun","uc_ammo"}
 
 att.AutoStats = true
 
@@ -39,6 +39,12 @@ att.ExcludeFlags = {"powder_subsonic"}
 
 att.Hook_GetDistantShootSound = function(wep, distancesound)
     if distancesound == wep.DistantShootSoundSilenced then
+        return false
+    end
+end
+
+att.Hook_Compatible = function(wep)
+    if wep:GetIsShotgun() then
         return false
     end
 end
