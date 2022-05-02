@@ -9,7 +9,7 @@ att.Desc_Cons = {
 att.Desc_Neutrals = {
 }
 att.AutoStats = true
-att.Slot = {"uc_ammo"}
+att.Slot = {"ud_ammo_shotgun","uc_ammo"}
 
 att.Mult_Penetration = 0
 att.Mult_Precision = 0.8
@@ -59,3 +59,9 @@ att.Hook_BulletHit = function(wep, data)
 end
 att.NotForNPCs = true
 att.AddPrefix = "HE "
+
+att.Hook_Compatible = function(wep)
+    if wep:GetIsShotgun() then
+        return false
+    end
+end
