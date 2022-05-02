@@ -50,7 +50,7 @@ att.Hook_GetDistantShootSound = function(wep, distancesound)
         return "weapons/arccw_ud/glock/fire_dist_45.ogg" end
 end
 
-att.GivesFlags = {"ur_mp5_cal_10mm"} and {"cal_subsonic"}
+att.GivesFlags = {"ur_mp5_cal_10mm"}
 --att.ExcludeFlags = {"barrel_sd"}
 att.ActivateElements = {"ur_mp5_mag_waffle"}
-att.ExcludeFlags = {"mp5_mag"} and {"powder_subsonic"}
+att.ExcludeFlags = {"powder_subsonic"}
