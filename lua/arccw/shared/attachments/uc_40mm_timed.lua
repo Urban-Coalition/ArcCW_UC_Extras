@@ -13,6 +13,7 @@ att.Slot = "uc_40mm"
 
 att.Mult_MuzzleVelocity = 0.4
 
+att.Override_ShootEntity = "arccw_uc_40mm_timed"
 att.Override_Firemodes_Priority = 1000
 att.Override_Firemodes = {
     {
