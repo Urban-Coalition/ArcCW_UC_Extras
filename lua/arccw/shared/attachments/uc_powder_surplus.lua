@@ -1,6 +1,6 @@
 att.PrintName = "Surplus"
 att.Icon = Material("entities/att/acwatt_uce_powder_surplus.png", "mips smooth")
-att.Description = "Mass-produced, poor-quality ammunition auctioned off following obsolesence. The inconsistent powder loads have more power on average, but can lead to atrocious reliability problems."
+att.Description = "Mass-produced, poor-quality ammunition auctioned off following obsolesence. The inconsistent, randomized powder loads have more power on average, but can lead to atrocious reliability problems."
 att.Slot = "uc_powder"
 att.AutoStats = true
 att.Desc_Pros = {"uce.surplus1"}
