@@ -1,13 +1,17 @@
 att.PrintName = "40mm Timed Explosive Charge"
+att.AbbrevName = "Timed Charge"
 att.Icon = Material("entities/att/arccw_uc_40mm_generic.png", "mips smooth")
 att.Description = "A high explosive grenade with configurable timed fuse and carrying a heavier payload. Does not detonate on impact. Useful when shooting around corners."
 att.Desc_Pros = {
+    "uce.timed1"
 }
 att.Desc_Cons = {
+    "uce.timed2"
 }
 att.Desc_Neutrals = {
 }
 att.SortOrder = 4
+att.AutoStats = true
 
 att.Slot = "uc_40mm"
 
