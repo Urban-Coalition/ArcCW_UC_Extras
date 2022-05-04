@@ -7,7 +7,8 @@ att.Desc_Pros = {"uce.surplus1"}
 att.Desc_Cons = {"uce.surplus2","uce.surplus3"}
 
 att.Override_Malfunction = true
-att.Mult_MalfunctionMean = .35
+att.Mult_MalfunctionMean = .2
+att.Mult_MalfunctionVariance = 3
 att.Mult_AccuracyMOA = 1.15
 
 att.Hook_BulletHit = function(wep,data)
