@@ -10,3 +10,7 @@ L["uce.gi.pro"] = "Can accept different magazines despite being single stacked"
 L["uce.gi.con"] = "Not magnum rounds :("
 
 L["uce.deagle.cocknballs"] = "It's the HALO 2™ Magnum"
+
+L["uce.surplus1"] = "+20% Damage maximum"
+L["uce.surplus2"] = "Will frequently jam"
+L["uce.surplus3"] = "-15% Damage minimum"
