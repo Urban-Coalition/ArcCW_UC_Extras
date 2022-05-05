@@ -6,6 +6,8 @@ ENT.PrintName = "40mm Fat Man"
 ENT.GrenadeDamage = false
 ENT.GrenadeRadius = 1600
 ENT.DragCoefficient = 0.75
+ENT.ExplosionEffect = false
+ENT.Scorch = true
 
 ENT.Model = "models/weapons/shell.mdl"
 
