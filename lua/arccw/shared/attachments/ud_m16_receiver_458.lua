@@ -89,3 +89,4 @@ att.Hook_GetDefaultAttIcon = function(wep, slot)
 end
 
 att.GivesFlags = {"m16_458"}
+att.ExcludeFlags = {"m16_usas", "m16_9mm", "m16_50beo"}
