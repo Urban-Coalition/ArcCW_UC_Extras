@@ -1,8 +1,8 @@
-att.PrintName = ".50 Beowulf 40-Round C-Mag"
+att.PrintName = ".458 SOCOM 40-Round C-Mag"
 att.AbbrevName = "40-Round C-Mag"
-att.SortOrder = 100
+att.SortOrder = 40
 att.Icon = Material("entities/att/acwatt_ud_m16_mag_100.png", "smooth mips")
-att.Description = "\"REDIPS PUT SOMETHING FUNNY HERE BEFORE THE WS PUSH!\" Taskmaster said. \"No\" Redips replied calmly."
+att.Description = "Single stack .458 SOCOM magazine with a capacity of 40 rounds in the original 5.56x45mm NATO STANAG 100 round Beta-C magazine. Drum mags are unreliable as is, are you sure you want to shove these heavy, 11.63×40mm rounds into them?"
 att.Desc_Pros = {}
 att.Desc_Cons = {
     "uc.jam"
@@ -36,7 +36,7 @@ att.Override_HeatDelayTime = 3
 
 att.Override_Malfunction = true
 att.Mult_MalfunctionMean = 0.75
-att.Mult_MalfunctionVariance = 1.5
+att.Mult_MalfunctionVariance = 1.75
 
 att.Hook_SelectReloadAnimation = function(wep, anim)
     return anim .. "_100"
@@ -48,6 +48,4 @@ att.Hook_TranslateAnimation = function(wep, anim)
     end
 end
 
-att.ExcludeFlags = {"m16_usas", "m16_9mm"}
-
-att.RequireFlags = {"m16_50beo"}
+att.RequireFlags = {"m16_458"}
