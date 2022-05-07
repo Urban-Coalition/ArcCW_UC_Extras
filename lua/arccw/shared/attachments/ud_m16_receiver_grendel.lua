@@ -5,7 +5,7 @@ if GetConVar("arccw_truenames"):GetBool() then
     att.PrintName = "AR-15 6.5 Grendel Receiver"
 end
 
-att.Description = "A semi-automatic upper receiver that rechambers your rifle in 6.5 Grendel. Classed as a good "middle ground" between the 5.56×45mm NATO and the 7.62×51mm NATO, the round has more kinetic energy, better body armor penetration and is more accurate than the standard 5.56x45mm but suffers from beefier recoil and slightly slower muzzle velocity."
+att.Description = "A semi-automatic upper receiver that rechambers your rifle in 6.5 Grendel. Classed as a good middle ground between the 5.56×45mm NATO and the 7.62×51mm NATO, the round has more kinetic energy, better body armor penetration and is more accurate than the standard 5.56x45mm but suffers from beefier recoil and slightly slower muzzle velocity."
 
 att.Icon = Material("entities/att/acwatt_ud_m16_receiver_semi.png", "smooth mips")
 att.Desc_Pros = {
