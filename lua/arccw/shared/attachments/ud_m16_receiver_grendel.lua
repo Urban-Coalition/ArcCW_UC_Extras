@@ -28,6 +28,7 @@ att.Mult_Range = 1.15
 att.Mult_Penetration = 2.5
 att.Mult_ShootVol = 1.1
 att.Mult_ClipSize = 0.8666666666
+att.Mult_Damage = 1.15
 
 att.Mult_PhysBulletMuzzleVelocity = 1.15
 
