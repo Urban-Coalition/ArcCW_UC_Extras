@@ -3,42 +3,48 @@ att.AbbrevName = "Timed Charge"
 att.Icon = Material("entities/att/arccw_uc_40mm_generic.png", "mips smooth")
 att.Description = "A high explosive grenade with configurable timed fuse and carrying a heavier payload. Does not detonate on impact. Useful when shooting around corners."
 att.Desc_Pros = {
-    "uce.timed1"
+    "uce.timed1",
+    "Larger explosion radius"
 }
 att.Desc_Cons = {
-    "uce.timed2"
+    "uce.timed2",
+    "Slower projectile speed"
 }
 att.Desc_Neutrals = {
 }
 att.SortOrder = 4
-att.AutoStats = true
+att.AutoStats = false
 
 att.Slot = "uc_40mm"
 
-att.Mult_MuzzleVelocity = 0.4
+att.Mult_Damage = 0.45
+att.Mult_MuzzleVelocity = 1.25
+att.Mult_DamageMin = 0.005
+att.Mult_RangeMin = 0.1
+att.Mult_Range = 3
 
 att.Override_ShootEntity = "arccw_uc_40mm_timed"
 att.Override_Firemodes_Priority = 1000
 att.Override_Firemodes = {
     {
         Mode = 1,
-        PrintName = "2s",
-        DetonationDelay = 2
+        PrintName = "0.5s",
+        DetonationDelay = 0.5
+    },
+    {
+        Mode = 1,
+        PrintName = "0.75s",
+        DetonationDelay = 0.75
+    },
+    {
+        Mode = 1,
+        PrintName = "1.5s",
+        DetonationDelay = 1.5
     },
     {
         Mode = 1,
         PrintName = "3s",
         DetonationDelay = 3
-    },
-    {
-        Mode = 1,
-        PrintName = "5s",
-        DetonationDelay = 5
-    },
-    {
-        Mode = 1,
-        PrintName = "10s",
-        DetonationDelay = 10
     },
     {
         Mode = 0

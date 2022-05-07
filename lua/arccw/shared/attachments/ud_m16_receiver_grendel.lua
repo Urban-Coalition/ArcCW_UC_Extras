@@ -21,8 +21,8 @@ att.AutoStats = true
 att.SortOrder = -1
 
 att.Mult_RPM = 500 / 800
-att.Mult_Recoil = 1.15
-att.Mult_RecoilSide = 0.85
+att.Mult_Recoil = 1.5
+att.Mult_RecoilSide = 0.2
 att.Mult_AccuracyMOA = 0.75
 att.Mult_Range = 1.15
 att.Mult_Penetration = 2.5

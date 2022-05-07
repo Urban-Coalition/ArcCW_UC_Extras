@@ -5,7 +5,8 @@ ENT.PrintName 				= "40mm timed charge"
 ENT.Author = ""
 ENT.Information = ""
 ENT.Spawnable = false
-
+ENT.DragCoefficient = 1.25
+ENT.GrenadeRadius = 600
 
 if SERVER then
     function ENT:Initialize()
