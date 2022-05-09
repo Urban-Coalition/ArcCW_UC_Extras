@@ -10,7 +10,7 @@ function ENT:Initialize()
     if SERVER then
         self.dmg = DamageInfo()
         self.dmg:SetDamage(1)
-        self.dmg:SetAttacker(self.Creator)
+        self.dmg:SetAttacker(self.Creator or self)
         self.dmg:SetInflictor(self)
         self.dmg:SetDamageType(DMG_RADIATION)
     end
@@ -22,9 +22,11 @@ function ENT:Think()
             if ent:IsPlayer() and ent:Alive() then
                 ent:ViewPunch(AngleRand() / 120)
                 ent:ScreenFade(SCREENFADE.IN,Color(255,255,255,32),.25,0)
-                ent:TakeDamageInfo(self.dmg)
+                --ent:TakeDamageInfo(self.dmg)
+                ent:TakeDamage(1,self.Creator,self)
             elseif ent:IsNPC() then
-                ent:TakeDamageInfo(self.dmg)
+                --ent:TakeDamageInfo(self.dmg)
+                ent:TakeDamage(1,self.Creator,self)
             end
         end
 
