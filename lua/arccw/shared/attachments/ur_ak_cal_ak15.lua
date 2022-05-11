@@ -14,14 +14,3 @@ att.Override_Trivia_Country = "Russia"
 
 att.ActivateElements = {"reciever_ak12"}
 att.GivesFlags = {"receiver_ak12"}
-
-att.Hook_GetDefaultAttName = function(wep, slot)
-    if slotinfo[slot] then
-        return GetConVar("arccw_truenames"):GetBool() and slotinfo[slot][2] or slotinfo[slot][1]
-    end
-end
-att.Hook_GetDefaultAttIcon = function(wep, slot)
-    if slotinfo[slot] then
-        return slotinfo[slot][3]
-    end
-end
