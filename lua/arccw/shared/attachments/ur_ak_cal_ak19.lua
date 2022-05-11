@@ -31,6 +31,9 @@ att.Override_ShellModel = "models/weapons/arccw/uc_shells/556x45.mdl"
 att.Override_ShellScale = 1
 att.GivesFlags = {"cal_556"}
 
+att.ActivateElements = {"reciever_ak12"}
+att.GivesFlags = {"receiver_ak12", "cal_556"}
+
 att.Override_Firemodes = {
     {
         Mode = 2,
@@ -42,6 +45,3 @@ att.Override_Firemodes = {
         Mode = 0,
     },
 }
-
-att.ActivateElements = {"reciever_ak12"}
-att.GivesFlags = {"receiver_ak12"}
