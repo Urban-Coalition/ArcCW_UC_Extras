@@ -11,7 +11,7 @@ att.Desc_Neutrals = {
     "uc.cosmetic"
 }
 
-att.SortOrder = 10
+--att.SortOrder = 1
 
 att.Override_ClipSize = 20
 att.Mult_Range = 2

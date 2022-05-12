@@ -10,6 +10,21 @@ att.AutoStats = true
 
 att.SortOrder = 10
 
+att.Override_Firemodes = {
+    {
+        Mode = 2,
+    },
+    {
+        Mode = -3
+    },
+    {
+        Mode = 1,
+    },
+    {
+        Mode = 0,
+    },
+}
+
 att.Override_Trivia_Country = "Russia"
 
 att.ActivateElements = {"reciever_ak12"}
