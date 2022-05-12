@@ -32,15 +32,21 @@ att.Override_ShellScale = 1
 
 att.ActivateElements = {"reciever_ak12", "mag_556_30"}
 att.GivesFlags = {"receiver_ak12", "cal_556"}
+local path = ")^weapons/arccw_ur/ak/556/"
+local path1 = ")^weapons/arccw_ur/ak/"
 
-att.Override_Firemodes = {
-    {
-        Mode = 2,
-    },
-    {
-        Mode = 1,
-    },
-    {
-        Mode = 0,
-    },
+att.Hook_GetShootSound = function(wep, fsound)
+    --[[if fsound == wep.FirstShootSound or fsound == wep.FirstShootSound then return {
+        path .. "stalol/fire_545_1.wav",
+     } end]]
+    if fsound == wep.ShootSound or fsound == wep.FirstShootSound then return {path .. "fire-01.ogg", path .. "fire-02.ogg", path .. "fire-03.ogg", path .. "fire-04.ogg", path .. "fire-05.ogg", path .. "fire-06.ogg"} end
+    if fsound == wep.ShootSoundSilenced then return path .. "fire_supp.ogg" end
+end
+
+att.Hook_GetDistantShootSound = function(wep, distancesound)
+    if distancesound == wep.DistantShootSound then return {path .. "fire-dist-01.ogg", path .. "fire-dist-02.ogg", path .. "fire-dist-03.ogg", path .. "fire-dist-04.ogg", path .. "fire-dist-05.ogg", path .. "fire-dist-06.ogg"} end
+end
+
+local slotinfo = {
+    [5] = {"30-Round Mag", "30-Round Mag", Material("entities/att/ur_ak/magazines/545_30.png", "mips smooth")},
 }
