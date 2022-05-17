@@ -1,6 +1,6 @@
 att.PrintName = "AK-15 7.62x39mm Receiver"
 att.AbbrevName = "AK-15 Receiver"
-att.Icon = Material("entities/att/ur_ak/recievers/ak12.png", "mips smooth")
+att.Icon = Material("entities/att/ur_ak/recievers/ak15.png", "mips smooth")
 att.Description = "Modern stamped receiver derived from the AK-12/400 rifle. The development of the AK-15 ran alongside the AK-12, however the AK-15 is chambered in 7.62x39mm, instead of 5.45x39mm."
 att.Desc_Neutrals = {
     "uc.cosmetic"
