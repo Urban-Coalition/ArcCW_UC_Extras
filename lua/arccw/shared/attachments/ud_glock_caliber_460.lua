@@ -20,8 +20,8 @@ att.AutoStats = true
 
 att.Override_Trivia_Calibre = ".460 Rowland"
 
-att.Mult_Damage = 1.275
-att.Mult_DamageMin = 0.88
+att.Mult_Damage = 1.5
+att.Mult_AccuracyMOA = 0.75
 att.Mult_Penetration = 10
 att.Mult_Range = 1.25
 att.Mult_Precision = 1.25
