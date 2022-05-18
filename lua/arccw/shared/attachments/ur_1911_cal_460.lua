@@ -21,10 +21,9 @@ att.AutoStats = true
 att.Override_Trivia_Calibre = ".460 Rowland"
 
 att.Mult_AccuracyMOA = 0.75
+att.Mult_Penetration = 10
 att.Mult_Range = 1.25
-att.Mult_Penetration = 1.25
 att.Mult_Precision = 1.25
-att.Mult_Damage = 0.85
 att.Mult_Recoil = 1.10
 att.Mult_MalfunctionMean = 1.05
 att.Override_PhysBulletMuzzleVelocity = 3000
