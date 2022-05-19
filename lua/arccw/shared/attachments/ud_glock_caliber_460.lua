@@ -65,6 +65,3 @@ att.Hook_GetDistantShootSoundIndoors = function(wep, distancesound)
         }
     end
 end
-
-att.GivesFlags = {"cal_subsonic"}
-att.ExcludeFlags = {"powder_subsonic"}
