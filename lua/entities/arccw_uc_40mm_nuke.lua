@@ -11,6 +11,10 @@ ENT.ExplosionEffect = false
 ENT.Model = "models/weapons/shell.mdl"
 
 function ENT:DoDetonation()
+    for _,prop in pairs(ents.FindInSphere(self:GetPos(),self.GrenadeRadius)) do
+        constraint.RemoveAll(prop)
+    end -- Break the constraints before applying damage, this MIGHT change how the props behave
+
     local attacker = IsValid(self:GetOwner()) and self:GetOwner() or self
     util.BlastDamage(self, attacker, self:GetPos(), self.GrenadeRadius, self.GrenadeDamage or self.Damage or 0)
 
