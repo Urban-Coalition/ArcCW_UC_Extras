@@ -19,5 +19,5 @@ att.Mult_HolsterTime = 0.8
 att.Mult_SightedSpeedMult = 1.2
 att.Mult_SpeedMult = 1.2
 
-att.Mult_MalfunctionMean = 1.2
+att.Mult_MalfunctionMean = 0.8
 att.Mult_Recoil = 1.2
