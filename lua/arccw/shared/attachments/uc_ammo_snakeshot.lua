@@ -18,9 +18,9 @@ att.AutoStats = true
 
 att.Mult_Range = 0.25
 att.Mult_RangeMin = 0.25
-att.Override_Num = 10
+att.Override_Num = 4
 att.Override_AccuracyMOA = 35
-att.Override_PhysBulletMuzzleVelocity = 275
+att.Override_PhysBulletMuzzleVelocity = 235
 att.Override_HipDispersion = 10
 att.Override_SightsDispersion = 10
 att.Mult_Recoil = 0.5
@@ -29,7 +29,7 @@ att.ShotgunSpreadDispersion = true
 
 att.Mult_Damage = 1.9
 att.Mult_DamageMin = 0.25
-att.Mult_RPM = 0.4
+att.Mult_RPM = 0.95
 
 att.Override_PhysTracerProfile = 7
 att.Override_TracerNum = 0
