@@ -1,6 +1,6 @@
 att.PrintName = "\"SS\" Snake-Shot Rounds"
 att.AbbrevName = "\"SS\" Snake-Shot"
-att.SortOrder = 1
+att.SortOrder = 2
 att.Icon = Material("entities/att/arccw_uc_ammo_generic.png", "mips smooth")
 att.Description = "Snake shot refers to handgun and rifle cartridges loaded with small lead shot. It is generally used for shooting snakes, rodents, birds, and other pests at very close range."
 att.Desc_Pros = {
