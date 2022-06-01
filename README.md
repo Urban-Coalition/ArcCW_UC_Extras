@@ -5,24 +5,46 @@ Required content: Urban Decay, Urban Renewal, Urban Attachments and Common Conte
 
 Features:
 
-Glock: .50 GI conversion kit
+Glock: .50 GI Conversion kit
 
-1911: .460 Rowland conversion 
+1911: .460 Rowland Conversion 
 
-Desert Eagle: Halo 2 Magnum conversion
+Desert Eagle: Halo 2 Magnum Conversion
 
-Desert Eagle: Halo: Combat Evolved Desert Eagle conversion
+Desert Eagle: Halo: Combat Evolved Desert Eagle Conversion
 
-Desert Eagle: .429 DE conversion kit
+Desert Eagle: .429 DE Conversion Kit
 
-Mini-14: .300 Blackout receiever
+Mini-14: .300 Blackout Receiever
 
 Uzi: .41 Magnum conversion kit
 
-M79: Nuke round
+Uzi: .45 ACP Drum Magazine
 
-Explosive Rounds
+M79: Nuke Round
 
-Snake-Shot Rounds
+M79: Timed Round
 
-GUN GENIE Firearm Enhancer
+Ammo Type: APTR (Armour-Piercing Tracer)
+
+Ammo Type: Snake-Shot
+
+Ammo Type: Explosive Rounds
+
+Powder Load: Surplus
+
+Internals: GUN GENIE Firearm Enhancer
+
+Internals: Fieldstrip
+
+Training Package: Technician
+
+AK: AK-15 Receiver
+
+AK: AK-19 Receiver
+
+AK: 308 Stamped Receiver
+
+M16: .50 Beowulf Dualstack mag
+
+M16: .50 Beowulf Drum Mag
