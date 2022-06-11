@@ -12,6 +12,15 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = "ud_m16_rs"
 
+att.ActivateElements = {"ud_m16_upper_flat"}
+att.GivesFlags = {"ud_m16_not_retro"}
+att.ExcludeFlags = {"ud_m16_retro"}
+--att.HideIfBlocked = true
+
+att.SortOrder = 1000
+att.Free = true
+att.IgnorePickX = true
+
 att.Free = true
 
 att.AdditionalSights = {
