@@ -67,7 +67,12 @@ att.Hook_Compatible = function(wep)
 end
 
 att.Hook_Compatible = function(wep)
-    if !(wep.Primary.Ammo == "ar2" or wep.Primary.Ammo == "SniperPenetratedRound") then
+    local allowedAmmos = {
+        ["ar2"] = true,
+        ["SniperPenetratedRound"] = true,
+        ["357"] = true,
+    }
+    if !allowedAmmos[wep.Primary.Ammo] then
         return false
     end
 end
