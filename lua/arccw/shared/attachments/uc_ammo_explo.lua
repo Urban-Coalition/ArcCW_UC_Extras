@@ -12,7 +12,7 @@ att.AutoStats = true
 att.Slot = {"ud_ammo_shotgun","uc_ammo"}
 
 att.Mult_Penetration = 0
-att.Mult_Precision = 0.8
+att.Mult_Precision = 1.25
 att.Mult_Damage = 0.75
 att.Mult_Range = 0.75
 att.Mult_MuzzleVelocity = 0.75
