@@ -17,8 +17,8 @@ att.Slot = {"uc_ammo"}
 att.Mult_Penetration = 0
 att.Mult_Precision = 1.25
 att.Mult_Damage = 0.75
-att.Mult_Range = 0.75
-att.Mult_MuzzleVelocity = 0.75
+att.Mult_Range = 0.50
+att.Mult_MuzzleVelocity = 0.50
 
 att.Override_PhysTracerProfile = 1
 att.Override_AlwaysPhysBullet = true
@@ -55,7 +55,9 @@ end
 
 att.Hook_Compatible = function(wep)
     local allowedAmmos = {
+        ["ar2"] = true,
         ["SniperPenetratedRound"] = true,
+        ["357"] = true,
     }
     if !allowedAmmos[wep.Primary.Ammo] then
         return false
