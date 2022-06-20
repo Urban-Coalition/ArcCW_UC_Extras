@@ -27,9 +27,13 @@ M79: Timed Round
 
 Ammo Type: APTR (Armour-Piercing Tracer)
 
+Ammo Type: HEI (High-Explosive Incendiary)
+
 Ammo Type: Snake-Shot
 
 Ammo Type: Explosive Rounds
+
+Ammo Type: Armour-Piercing Slug
 
 Powder Load: Surplus
 
