@@ -6,7 +6,7 @@ if !GetConVar("arccw_truenames"):GetBool() then
 end
 
 att.SortOrder = 8
-att.Icon = Material("entities/att/acwatt_uc_usp_bullets_357sig.png", "smooth mips")
+att.Icon = Material("entities/att/acwatt_uc_cal_357sig.png", "smooth mips")
 att.Description = "A law-enforcement caliber well-known for its accuracy. Only available for the USP Compact as no full size pistols were ever manufactured by H&K."
 att.Desc_Pros = {
 }
