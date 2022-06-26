@@ -6,7 +6,7 @@ if !GetConVar("arccw_truenames"):GetBool() then
 end
 
 att.SortOrder = 70
-att.Icon = Material("entities/att/acwatt_ud_glock_caliber.png", "smooth mips")
+att.Icon = Material("entities/att/acwatt_uc_cal_460.png", "smooth mips")
 att.Description = "The .460 Rowland is a proprietary cartridge which attains true .44 Magnum level velocities when fired from a number of popular semi-automatic pistols, revolvers, and rifles."
 att.Desc_Pros = {
 }

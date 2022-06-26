@@ -6,7 +6,7 @@ if !GetConVar("arccw_truenames"):GetBool() then
 end
 
 att.SortOrder = 120
-att.Icon = Material("entities/att/acwatt_ud_glock_caliber.png", "smooth mips")
+att.Icon = Material("entities/att/acwatt_uc_cal_50gi.png", "smooth mips")
 att.Description = "Custom slide and ammunition provided by esteemed manufacturer, Guncrafter Industries.\nBetter minimum range, accuracy and overall damage compared to .45 ACP, but suffers from abysmal magazine capacity and most unreliable of all calibers."
 att.Desc_Pros = { "uce.gi.pro"
 }
@@ -30,9 +30,9 @@ att.Mult_AccuracyMOA = 1.05
 att.Override_PhysBulletMuzzleVelocity = 370
 
 att.Mult_RangeMin = 0.7
-att.Mult_Recoil = 1.65
-att.Mult_RecoilSide = 1.35
-att.Mult_RPM = 0.70
+att.Mult_Recoil = 1.85
+att.Mult_RecoilSide = 1.65
+att.Mult_RPM = 0.80
 att.Mult_MalfunctionMean = 0.85
 att.Mult_ClipSize = 0.47
 att.Mult_ReloadTime = 1.05

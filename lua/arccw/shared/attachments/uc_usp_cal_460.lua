@@ -6,7 +6,7 @@ if !GetConVar("arccw_truenames"):GetBool() then
 end
 
 att.SortOrder = 70
-att.Icon = Material("entities/att/acwatt_ud_glock_caliber.png", "smooth mips")
+att.Icon = Material("entities/att/acwatt_uc_cal_460.png", "smooth mips")
 att.Description = "Convert barrel to take .460 Rowland, a proprietary cartridge which attains true .44 Magnum level velocities."
 att.Desc_Pros = {
 }
@@ -26,4 +26,5 @@ att.Mult_Range = 1.25
 att.Mult_Precision = 1.25
 att.Mult_Recoil = 1.4
 att.Mult_MalfunctionMean = 1.05
+att.Mult_ShootPitch = 1.15
 att.Override_PhysBulletMuzzleVelocity = 480
