@@ -23,17 +23,17 @@ att.Override_Trivia_Calibre = ".50 Guncrafter Industries"
 att.Override_Trivia_Manufacturer = "Guncrafter Industries"
 att.AddSuffix = " .50 GI"
 
-att.Mult_Damage = 1.8
-att.Mult_DamageMin = 1.4
-att.Mult_Penetration = 0.95
-att.Mult_AccuracyMOA = 1.05
+att.Mult_Damage = 2.5
+att.Mult_DamageMin = 1.5
+att.Mult_Penetration = 0.75
+att.Mult_AccuracyMOA = 1.10
 att.Override_PhysBulletMuzzleVelocity = 370
 
 att.Mult_RangeMin = 0.7
-att.Mult_Recoil = 1.85
-att.Mult_RecoilSide = 1.65
-att.Mult_RPM = 0.80
-att.Mult_MalfunctionMean = 0.85
+att.Mult_Recoil = 3.10
+att.Mult_RecoilSide = 1.35
+att.Mult_RPM = 0.90
+att.Mult_MalfunctionMean = 0.80
 att.Mult_ClipSize = 0.47
 att.Mult_ReloadTime = 1.05
 att.Mult_SightTime = 1.05
