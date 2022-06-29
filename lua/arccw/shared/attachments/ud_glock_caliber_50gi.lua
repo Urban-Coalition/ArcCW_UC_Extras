@@ -19,7 +19,7 @@ att.Slot = "ud_glock_caliber"
 att.AutoStats = true
 
 att.Override_ShellScale = 1.30
-att.Override_Trivia_Calibre = ".50 Guncrafter Industries"
+att.Override_Trivia_Calibre = ".50 GI"
 att.Override_Trivia_Manufacturer = "Guncrafter Industries"
 att.AddSuffix = " .50 GI"
 
