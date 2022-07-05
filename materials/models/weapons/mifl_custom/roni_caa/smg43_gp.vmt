@@ -1,0 +1,32 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\mifl_custom\roni_caa\smg43_gp"
+	"$bumpmap" "models\weapons\mifl_custom\roni_caa\smg43_gp_n"
+	"$phongexponenttexture" "models\weapons\mifl_custom\roni_caa\smg43_gp_s"
+	$color2 "[1.5 1.5 1.5]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .035 .035 .035]"
+	"$envmapconstrast" "1"
+	"$halflambert""1"
+	"$phong" "1"
+	"$phongfresnelranges" "[3 3 3]"
+	"$phongexponent" "45"
+	"$phongboost" "55"
+	"$phongalbedotint" 	"1"
+	"$phongalbedoboost" "25"
+
+	"$rimlight" "1"
+	"$rimlightexponent" 	"50"	
+	"$rimlightboost"	"15"
+	"$rimmask" "1"
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\mifl_custom\roni_caa\T3"
+	"$bumpmap" "models\weapons\mifl_custom\roni_caa\T3_normal"
+	
+	$color2 "[.5 .5 .5]"
+	"$phong"	"1"
+	"$phongexponent"	"3"
+	"$phongalbedotint"	"1"
+	"$phongboost"	"0.25"
+	"$phongfresnelranges"	"[1 1 1]"
+        "$phongdisablehalflambert"  "1"
+
+        "$halflambert"                 "0"
+        "$nodecal"                     "0"
+        "$ambientocclusion"         "1"
+}
