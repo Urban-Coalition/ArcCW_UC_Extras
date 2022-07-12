@@ -8,7 +8,7 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.SortOrder = 999
 
-att.Slot = "tac_pistol"
+att.Slot = "uce_pistol_foregrip"
 
 att.LHIK = true
 
