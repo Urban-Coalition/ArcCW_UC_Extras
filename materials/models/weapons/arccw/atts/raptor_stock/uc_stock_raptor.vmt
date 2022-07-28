@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\weapons\arccw\atts\raptor_stock\uc_stock_raptor"
+	"$bumpmap" "models\weapons\arccw\atts\raptor_stock\uc_stock_raptor_normal"
+    	"$surfaceprop" "metal"
+	"$phong" "1"
+	"$phongfresnelranges"	"[0.5 1 1]"
+	"$phongboost"	"0.5"
+	$phongexponent 60
+	"$envmaptint"	"[.135 .135 .135]"
+	"$envmapfresnel"	"1.4"
+	"$normalmapalphaenvmapmask" 1
+	"$halflambert" "1"
+	"$ambientocclusion" "1"						
+	"$phongexponenttexture" "models\weapons\arccw\atts\raptor_stock\uc_stock_raptor\exponent"
+	"$cloakPassEnabled" 		"1"						
+	"$phongfresnelranges"	"[ .2 1.2 8]"	
+	
+	"$color2" "[.7 .7 .7]"
+
+	"$nocull" "1"
+}
