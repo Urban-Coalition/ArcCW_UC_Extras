@@ -10,9 +10,10 @@ att.Model = "models/weapons/arccw/atts/uc_stock_raptor.mdl"
 att.ModelScale = Vector(0.75, 0.75, 0.75)
 att.ModelOffset = Vector(0.4, 0, 0)
 
-att.Mult_Recoil = .70
-att.Mult_RecoilSide = .5
+att.Mult_Recoil = .5
+att.Mult_RecoilSide = 1.75
 att.Mult_Sway = .5
-att.Mult_SightTime = 1.3
-att.Mult_DrawTime = 1.4
+att.Mult_SightTime = 1.5
+att.Mult_DrawTime = 1.3
+att.Override_HipDispersion = 0.1
 att.Add_BarrelLength = 20
