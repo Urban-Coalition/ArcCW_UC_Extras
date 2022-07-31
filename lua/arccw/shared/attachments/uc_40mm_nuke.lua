@@ -1,7 +1,7 @@
-att.PrintName = "40mm Tiny Tot"
+att.PrintName = "40mm \"Tiny Tot\" Grenades"
 att.AbbrevName = "Tiny Tot"
 att.Icon = Material("entities/att/arccw_uc_40mm_generic.png", "mips smooth")
-att.Description = [[Unusual homemade grenade with a small nuclear warhead that inflicts massive damage over a massive area. The heavyweight payload significantly hinders the projectile's aerodynamics and handling.
+att.Description = [[Small, homemade nuclear weapon that inflicts massive damage over a massive area. The heavyweight payload significantly hinders the projectile's aerodynamics and handling.
 
 Handle with extreme care.]]
 att.Desc_Pros = {
