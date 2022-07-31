@@ -1,41 +1,42 @@
-att.PrintName = "\"SS\" Snake-Shot Rounds"
-att.AbbrevName = "\"SS\" Snake-Shot"
+att.PrintName = "\"SS\" Snakeshot Rounds"
+att.AbbrevName = "\"SS\" Snakeshot"
 att.SortOrder = 2
 att.Icon = Material("entities/att/arccw_uc_ammo_generic.png", "mips smooth")
 att.Description = "Snake shot refers to handgun and rifle cartridges loaded with small lead shot. It is generally used for shooting snakes, rodents, birds, and other pests at very close range."
 att.Desc_Pros = {
-    "Fires rifled shotshells",
-    "pro.invistracers",
-    "uc.subsonic"
+    "uce.snakeshot.1",
+    -- "pro.invistracers",
+    -- "uc.subsonic"
 }
 att.Desc_Cons = {
+    "uce.snakeshot.2"
 }
 att.Desc_Neutrals = {
 }
-att.Slot = {"ud_ammo_shotgun","uc_ammo"}
+att.Slot = {"uc_ammo"}
 
 att.AutoStats = true
 
-att.Mult_Range = 0.25
-att.Mult_RangeMin = 0.25
-att.Override_Num = 5
-att.Override_AccuracyMOA = 65
-att.Override_PhysBulletMuzzleVelocity = 235
-att.Override_HipDispersion = 0.1
-att.Override_SightsDispersion = 0.1
-att.Mult_Recoil = 0.5
+att.Override_Num = 4
+att.Add_AccuracyMOA = 60
+att.Override_AccuracyMOA_Priority = 0
 
-att.ShotgunSpreadDispersion = true
+att.Override_HullSize = 0.1
+att.Override_BodyDamageMults = ArcCW.UC.BodyDamageMults_Shotgun
+att.Override_Penetration = 1
 
-att.Mult_Damage = 1.9
-att.Mult_DamageMin = 0.25
-att.Mult_RPM = 0.95
+att.Mult_Damage = 70 / 60
 
-att.Override_PhysTracerProfile = 7
-att.Override_TracerNum = 0
+att.Mult_Range = 0.4
+att.Mult_RangeMin = 2
 
-att.GivesFlags = {"cal_subsonic"}
-att.ExcludeFlags = {"powder_subsonic"}
+att.Mult_PhysBulletMuzzleVelocity = 0.6
+
+-- att.Override_PhysTracerProfile = 7
+-- att.Override_TracerNum = 0
+
+-- att.GivesFlags = {"cal_subsonic"}
+-- att.ExcludeFlags = {"powder_subsonic"}
 
 att.Hook_GetDistantShootSound = function(wep, distancesound)
     if distancesound == wep.DistantShootSoundSilenced then
