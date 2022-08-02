@@ -49,3 +49,5 @@ att.Hook_Compatible = function(wep)
         return false
     end
 end
+
+att.Ignore = true -- I think this attachment is shit and should be deleted soon
