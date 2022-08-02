@@ -56,6 +56,3 @@ att.Hook_GetDistantShootSound = function(wep, distancesound)
         return { "weapons/arccw_ud/glock/fire_dist_40.ogg" }
     end
 end
-
-att.RequireFlags = {"usp_compact"}
-att.ExcludeFlags = {"usp_extended_mag"}
