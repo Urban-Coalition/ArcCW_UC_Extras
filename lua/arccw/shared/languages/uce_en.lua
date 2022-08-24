@@ -21,3 +21,5 @@ L["uce.timed2"] = "No impact detonation"
 
 L["uce.snakeshot.1"] = "Fires 4 pellets instead of one round"
 L["uce.snakeshot.2"] = "+60MOA Imprecision"
+
+L["uce.bottomless"] = "Bottomless clip"
