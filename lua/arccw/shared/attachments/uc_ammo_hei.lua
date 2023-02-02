@@ -7,7 +7,6 @@ att.Desc_Pros = { "uce.megamin"
 att.Desc_Cons = {
 }
 att.Desc_Neutrals = {
-	"uce.megamin",
 	"uc.api.1",
 	"uc.api.2"
 }
@@ -35,6 +34,8 @@ att.Hook_BulletHit = function(wep, data)
         data.dmgtype = DMG_AIRBOAT
     end
 end
+att.NotForNPCs = true
+att.AddPrefix = "HEI "
 
 att.Hook_PhysBulletHit = function(wep, data)
     if SERVER then

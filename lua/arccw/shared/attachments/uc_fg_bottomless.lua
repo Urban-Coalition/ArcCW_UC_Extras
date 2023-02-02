@@ -2,7 +2,7 @@ att.PrintName = "\"Doomer\" Bottomless Clip Conversion Ritual"
 att.AbbrevName = "Bottomless Clip"
 att.Icon = Material("entities/att/arccw_uc_tp_fieldstrip.png", "smooth mips")
 att.SortOrder = 20
-att.Description = "Urbanmancy™ at its logical endpoint: an altered magazine that lets you magically cram your entire ammo reserve inside. Unfortunately, this gets heavy and unreliable very quickly."
+att.Description = "Urbnamancy™ at its logical endpoint: an altered magazine that lets you magically cram your entire ammo reserve inside. Unfortunately, this gets heavy and unreliable very quickly."
 att.Desc_Pros = {"uce.bottomless"}
 att.Desc_Cons = {"uc.jam"}
 

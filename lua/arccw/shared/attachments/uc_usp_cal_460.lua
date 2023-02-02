@@ -28,3 +28,19 @@ att.Mult_Recoil = 1.4
 att.Mult_MalfunctionMean = 1.05
 att.Mult_ShootPitch = 1.15
 att.Override_PhysBulletMuzzleVelocity = 480
+
+local path = "/arccw_uc/common/"
+att.Hook_GetDistantShootSoundIndoors = function(wep, distancesound)
+    if wep:GetBuff_Override("Silencer") then
+        -- fallback to script
+    else
+        return {
+            path .. "fire-dist-int-pistol-heavy-01.ogg",
+            path .. "fire-dist-int-pistol-heavy-02.ogg",
+            path .. "fire-dist-int-pistol-heavy-03.ogg",
+            path .. "fire-dist-int-pistol-heavy-04.ogg",
+            path .. "fire-dist-int-pistol-heavy-05.ogg",
+            path .. "fire-dist-int-pistol-heavy-06.ogg"
+        }
+    end
+end
