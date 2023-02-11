@@ -17,11 +17,9 @@ att.AutoStats = false
 
 att.Slot = "uc_40mm"
 
-att.Mult_Damage = 0.45
-att.Mult_MuzzleVelocity = 1.25
-att.Mult_DamageMin = 0.005
-att.Mult_RangeMin = 0.1
-att.Mult_Range = 3
+att.Mult_Damage = 1.55
+att.Mult_DamageMin = 1.55
+att.Mult_MuzzleVelocity = 0.75
 
 att.Override_ShootEntity = "arccw_uc_40mm_timed"
 att.Override_Firemodes_Priority = 1000
