@@ -22,10 +22,10 @@ function ENT:DoDetonation()
     self:EmitSound("phx/explode0"..math.random(0,6)..".wav", 125, 100, 1, CHAN_AUTO)
     util.ScreenShake(self:GetPos(),45,5,1.5,self.GrenadeRadius * 5)
 
-    local rads = ents.Create("arccw_uce_radiation")
-    rads:SetPos(self:GetPos())
-    rads.Creator = attacker
-    rads.Duration = math.random(20,30)
-    rads:Spawn()
-    rads:Activate()
+    -- local rads = ents.Create("arccw_uce_radiation")
+    -- rads:SetPos(self:GetPos())
+    -- rads.Creator = attacker
+    -- rads.Duration = math.random(20,30)
+    -- rads:Spawn()
+    -- rads:Activate()
 end
