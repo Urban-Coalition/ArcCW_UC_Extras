@@ -4,6 +4,7 @@ att.Desc_Cons = {
     "uc.manual"
 }
 att.AutoStats = true
+att.Free = true
 
 att.Slot = {"ud_m16_blen"}
 
@@ -41,4 +42,4 @@ end
 
 att.Override_ManualAction = true
 
-att.GivesFlags = {"sd"}
+att.GivesFlags = {"sd","m16_lmg"}
