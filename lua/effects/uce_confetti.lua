@@ -11,12 +11,12 @@ function EFFECT:Init( data )
 
 	for i = 0, NumParticles do
 		local Color = Color(math.random(255), math.random(255), math.random(255))
-		local Pos = Vector( math.Rand( -1, 1 ), math.Rand( -1, 1 ), math.Rand( -1, 1 ) ) + data:GetStart()
+		local Pos = Vector( math.Rand( -0.5, 0.5 ), math.Rand( -0.5, 0.5 ), math.Rand( -0.5, 0.5 ) ) + data:GetStart()
 
 		local particle = emitter:Add( "particles/balloon_bit", vOffset + Pos * 8 )
 		if ( particle ) then
 
-			particle:SetVelocity( Pos * 500 )
+			particle:SetVelocity( Pos * 600 )
 
 			particle:SetLifeTime( 0 )
 			particle:SetDieTime( 10 )
@@ -41,7 +41,7 @@ function EFFECT:Init( data )
 
 			particle:SetAngleVelocity( Angle( math.Rand( -160, 160 ), math.Rand( -160, 160 ), math.Rand( -160, 160 ) ) )
 
-			particle:SetBounce( 1 )
+			particle:SetBounce( 0 )
 			particle:SetLighting( true )
 
 		end
