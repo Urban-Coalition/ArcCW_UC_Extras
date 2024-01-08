@@ -3,7 +3,8 @@ L = {}
 L["uce.wip"] = "Work in progress"
 
 L["uce.fattnutt"] = "Greatly increased blast radius"
-L["uce.fattnutt2"] = "Radiation deals damage after detonation"
+L["uce.fattnutt2"] = "No radiation damage after detonation!"
+L["uce.fattnutt3"] = "No radiation damage after detonation..."
 L["uce.megamin"] = "Explosion on hit"
 
 L["uce.deagle.cocknballs"] = "It's the HALO 2™ Magnum"

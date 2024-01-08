@@ -1,7 +1,7 @@
-att.PrintName = "40mm \"Tiny Tot\" Grenades"
-att.AbbrevName = "Tiny Tot"
+att.PrintName = "40mm \'Tiny Tot\' Grenades"
+att.AbbrevName = 'Tiny Tot'
 att.Icon = Material("entities/att/arccw_uc_40mm_generic.png", "mips smooth")
-att.Description = [[Small, homemade nuclear weapon that inflicts massive damage over a massive area. The heavyweight payload significantly hinders the projectile's aerodynamics and handling.
+att.Description = [[Small, homemade nuclear weapon using Pure Fusion to inflict massive damage over a massive area. The heavyweight payload significantly hinders the projectile's aerodynamics and handling.
 
 Handle with extreme care.]]
 att.Desc_Pros = {
@@ -9,7 +9,8 @@ att.Desc_Pros = {
     "uce.fattnutt2"
 }
 att.Desc_Cons = {
-    "uc.40mm.drag.high"
+    "uc.40mm.drag.high",
+    "uce.fattnutt3"
 }
 att.Desc_Neutrals = {
 }
@@ -24,8 +25,8 @@ att.Mult_DamageMin = 33
 
 att.Mult_MuzzleVelocity = .6
 
-att.Mult_ShootPitch = .69
-att.Mult_ReloadTime = 1.55
+att.Mult_ShootPitch = .66
+att.Mult_ReloadTime = 1.75
 att.Mult_SightTime = 1.25
 att.Mult_Recoil = 2.5
 att.Override_DamageType = DMG_AIRBOAT
